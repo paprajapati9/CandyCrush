@@ -1,3 +1,22 @@
+html,body{
+    height: 100%;
+    margin: unset;
+}
+
+.pp-dashboard-container{
+    object-fit: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.pp-dashboard-container-inner{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-top: 1%;
+}
+
 .pp-dashboard{
     width: 560px;
     height: 560px;
@@ -8,4 +27,22 @@
 .pp-dashboard .pp-block{
     width: 70px;
     height: 70px;
+    box-shadow: 1px 1px 8px 1px #888888;
+    border-radius: 5px;
+}
+
+.pp-scorecard-heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pp-scorecard-heading img{
+    padding-bottom: 10px;
+}
+
+.pp-image-block{
+    object-fit: cover;
+    background-position:center;
+    background-repeat: no-repeat;
 }
