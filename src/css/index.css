@@ -29,6 +29,7 @@ html,body{
     height: 70px;
     box-shadow: 1px 1px 8px 1px #888888;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .pp-scorecard-heading{
