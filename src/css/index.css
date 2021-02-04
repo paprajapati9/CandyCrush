@@ -1,0 +1,11 @@
+.pp-dashboard{
+    width: 560px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pp-dashboard .pp-block{
+    width: 70px;
+    height: 70px;
+}
