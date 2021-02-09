@@ -47,3 +47,18 @@ html,body{
     background-position:center;
     background-repeat: no-repeat;
 }
+
+.pp-timer-selector{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.pp-clock-container .pp-deadline-met{
+    font-family:monospace;
+    color: azure !important;
+}
+
+.pp-pointer-events-none{
+    pointer-events: none;
+}

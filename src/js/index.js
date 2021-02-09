@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const scoreboard = document.querySelector(".pp-scoreboard");
     const size = 8;
     const blocks = [];
-    var score = 0;
+    window.score = 0;
 
     dashboardContainer.style.backgroundImage = 'url(https://miltontan.com/photography/wp-content/uploads/2013/01/portrait-bg.jpg)';
 
@@ -153,8 +153,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
             matchArray.forEach(element => {
                 blocks[element].style.backgroundImage = '';
             });
-            score += scoreIncrease;
-            scoreboard.innerHTML = score;
+            window.score += scoreIncrease;
+            scoreboard.innerHTML = window.score;
         }  
     }
 
